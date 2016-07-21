@@ -17,8 +17,8 @@ from fileinput import filename
 
 REPO_DIRNAME = os.path.abspath(
     os.path.dirname(os.path.abspath(__file__)) + '/data')
-NUM_CLASSES = 4000
-NUM_TOP_CLASSES = 10
+NUM_CLASSES = 5
+NUM_TOP_CLASSES = 5
 # Obtain the flask app object
 app = flask.Flask(__name__)
 UPLOAD_FOLDER = '/tmp/demos_uploads'
