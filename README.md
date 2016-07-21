@@ -2,7 +2,9 @@
 Deploy tensorflow inception model as web service running on gunicorn/flask instead of grpc.
 Most of the stuffs are based on caffe web demo.
 
-#how to make this work
+# screenshot
+![Alt text](/screenshot.png?raw=true "screenshot")
+# how to make this work
 Assume that you have installed tensorflow, flask, gunicorn. There may be other python module dependencies, pip install them.
 
 1. git clone https://github.com/hetaoaoao/tensorflow_web_deploy
