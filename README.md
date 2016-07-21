@@ -26,4 +26,5 @@ directory, rename them to model and model.meta.  Also modify the synset file acc
 
 4. Open your browser, navigate to "http://localhost:5001", the page should be simple enough to understand.
 5. Use as webservice. Modify the interface for your need.
-   curl --request POST --data-binary "@sample.jpg" http://localhost:5001
+   
+  > curl --request POST --data-binary "@sample.jpg" http://localhost:5001
